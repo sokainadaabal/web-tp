@@ -1,203 +1,244 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta  charset="UTF-8">
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="Daabal Sokaina">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--include bootstarp-->
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <!--include icon bootstrap-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-        <!--Include le style-->
-        <link  rel="stylesheet" href="css/bootstrap.css" >
-        <title>Enset</title>
-    </head>
-    <body>
-        <!--navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img style="width:140px; height: 60px;"  src="image/logo.png"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Accueil
-                      <span class="visually-hidden">(current)</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-sm-2" type="text" placeholder="Search">
-                  <button class="btn btn-outline-primary my-2 my-sm-0  rounded-circle px-2" type="submit"><i class="bi bi-search"></i></button>
-                </form>
-              </div>
-            </div>
-      </nav>
-            <!--slider-->
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                <button style="border-radius: 50%; width: 10px;height: 10px;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button style="border-radius: 50%; width: 10px;height: 10px;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button style="border-radius: 50%; width: 10px;height: 10px;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button style="border-radius: 50%; width: 10px;height: 10px;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://picsum.photos/1300/400?ecole" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/1300/400?pc" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/1300/400?techno" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="https://picsum.photos/1300/400?server" class="d-block  w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                    <h5>for slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Daabal Sokaina">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--include bootstarp-->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!--include icon bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!--Include le style-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Enset</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img style="width:140px; height: 60px;" src="image/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Accueil
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0  rounded-circle px-2" type="submit"><i
+              class="bi bi-search"></i></button>
+        </form>
       </div>
-      <div class="container  m-4">    
-            <!--card-->
-            <div  class=" row mt-5 justify-content-between mx-5">
-                <div clas="col-lg-1"></div>
-                <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mt-sm-5" >
-                    <img class="card-img-top order-last order-sm-first order-md-last " src="https://picsum.photos/400/100?ecole" class="d-block w-100 mt-2"/>
-                    <div class="card text-white bg-secondary">
-                            <div class="card-body  p-sm position-relative my-xl-5">
-                            <h4 class="card-title">Dark card title</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <button class="btn btn-primary px-5 text-center " type="submit">Voir Plus </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 mt-5 mt-sm-5" >
-                  <img class=" card-img-top order-last order-sm-first order-md-last " src="https://picsum.photos/400/100?ecole" class="d-block w-100 mt-2"/>
-                  <div class="card text-white bg-secondary">
-                          <div class="card-body  p-sm position-relative my-xl-5">
-                          <h4 class="card-title">Dark card title</h4>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <button class="btn btn-primary px-5 text-center " type="submit">Voir Plus </button>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 mt-5 mt-sm-5" >
-                <img class="card-img-top order-last order-sm-first order-md-last " src="https://picsum.photos/400/100?ecole" class="d-block w-100 mt-2"/>
-                <div class="card text-white bg-secondary">
-                        <div class="card-body  p-sm position-relative my-xl-5">
-                        <h4 class="card-title">Dark card title</h4>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button class="btn btn-primary px-5 text-center " type="submit">Voir Plus </button>
-                    </div>
-                </div>
-              </div>
-            </div> 
-           <!--Equipe-->
-            <div class="d-none d-md-block d-sm-none">
-                <div class="row mt-5 ">
-                    <h3 class="text-center">Notre Equipe</h3><br/><br/><br/>
-                    <div class="col mx-5">
-                    </div>
-                    <div class="col-md-4 w-25" >
-                        <div class="card text-center bg-transparent" style="border: 0;">
-                            <div class="card-body">
-                                <img src="https://resize.prod.femina.ladmedia.fr/rblr/1401,978/img/var/2015-09/comment-devenir-une-personne-solaire-0e95b16c5fefae293635ad5b6ce2b1198537e371.jpg" class=" rounded-circle mx-auto d-block w-100  "/>
-                                <h4 class="card-title mt-3">Sokaina Daabal</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 w-25" >
-                        <div class="card text-center bg-transparent" style="border: 0;">
-                            <div class="card-body">
-                                <img src="data:image/jpeg;base64,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" class=" rounded-circle mx-auto d-block w-100  "/>
-                                <h4 class="card-title mt-3">Manar Haimer</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 w-25" >
-                        <div class="card text-center bg-transparent" style="border: 0; ">
-                            <div class="card-body">
-                                <img src="https://thumbs.dreamstime.com/b/portrait-d-homme-d-une-cinquantaine-d-ann%C3%A9es-bel-au-bureau-60821590.jpg" class=" rounded-circle mx-auto d-block w-100  "/>
-                                <h4 class="card-title mt-3">yassine Mohammed</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                    </div>
-                </div>
-            </div>
+    </div>
+  </nav>
+  <!--slider-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button style="border-radius: 50%; width: 10px;height: 10px;" type="button"
+        data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button style="border-radius: 50%; width: 10px;height: 10px;" type="button"
+        data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button style="border-radius: 50%; width: 10px;height: 10px;" type="button"
+        data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button style="border-radius: 50%; width: 10px;height: 10px;" type="button"
+        data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/1300/400?ecole" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
         </div>
-             <!--Contact & map-->
-            <div id="ContactWeb" class="card-footer">
-                <div class="row">
-                    <div class="col-md-6  col-sm-12 order-last  order-md-first">
-                        <ul class="list-group list-group-flush mt-3" style="background-color: transparent;">
-                          <li class="list-group-item p-5" >
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope"  viewBox="0 0 16 16">
-                              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                            </svg><a class="ms-3" style="color:white; text-decoration: none;  "   href="#">sokainadaabal@gmail.com</a> 
-                          </li>  
-                          <li class="list-group-item p-5" style="background-color: transparent;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone"  viewBox="0 0 16 16">
-                              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                            </svg> 
-                            <a class="ms-3" style="color:white; text-decoration: none;  " href="#">0604230472</a> 
-                          </li>   
-                          <li class="list-group-item p-5">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt"  viewBox="0 0 16 16">
-                              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                            </svg> <a class="ms-3" style="color:white; text-decoration: none;   " href="#">Rue 85 Ben Gradde  El Jadida</a> 
-                          </li>
-                        </ul>
-                      </div>
-                    <div class="col-md-6  col-sm-12 order-first order-dm-last">
-                        <div id="map-container-google-11" class="z-depth-1-half map-container-6 ">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.165094895022!2d-7.362647348723914!3d33.70467668060725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b6d0db170185%3A0x79759da1a916fc50!2sENSET%20Mohammedia!5e0!3m2!1sfr!2sma!4v1646866778122!5m2!1sfr!2sma" 
-                            frameborder="0" style="border:0;height: 400px;width: 100%;" allowfullscreen></iframe>
-                        </div>
-                    </div>  
-                </div> 
-            </div>   
-    </body>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1300/400?pc" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1300/400?techno" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/1300/400?server" class="d-block  w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>for slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+    <!--card-->
+    <div class="row mt-5 justify-content-center">
+      <div class="col-lg-4 col-md-12 col-sm-12 mt-5 mt-sm-5">
+        <img class="d-block w-100 mt-2 card-img-top  order-sm-first order-md-last"
+          src="https://picsum.photos/400/100?ecole" />
+        <div class="card text-white bg-secondary">
+          <div class="card-body  p-sm position-relative my-xl-5">
+            <h4 class="card-title">Dark card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button class="btn btn-primary px-5 text-center " type="submit">Voir Plus </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12  col-sm-12 mt-5 mt-sm-5">
+        <img class="d-block w-100 mt-2  card-img-top order-last order-sm-first order-md-last "
+          src="https://picsum.photos/400/100?ecole" />
+        <div class="card text-white bg-secondary">
+          <div class="card-body  p-sm position-relative my-xl-5">
+            <h4 class="card-title">Dark card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <button class="btn btn-primary px-5 text-center " type="submit">Voir Plus </button>
+          </div>
+        </div>
+      </div>
+      <div  class="col-lg-4 col-md-12  col-sm-12 mt-5 mt-sm-5">
+        <div class="row ">
+          <div class="col-lg-12 col-md-6 order-first">
+              <img  style="width:100%;"
+              src="https://picsum.photos/400/100?ecole" />
+           
+          </div>
+          <div class="col-lg-12 col-md-6 order-last">
+            <div class="card text-white bg-secondary">
+              <div class="card-body  p-sm position-relative my-xl-5">
+                <h4 class="card-title">Dark card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.</p>
+                <button class="btn btn-primary px-5 text-center " type="submit">Voir Plus </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--Equipe-->
+    <div class="d-none  d-lg-block  mt-5">
+      <div class="row justify-content-center">
+        <h3 class="text-center ">Notre Equipe
+          <hr class="w-25 mx-auto my-auto mt-3" style="height: 4px;color:white;"/>
+        </h3>
+        <div class="col-md-4 w-25">
+          <div class="card text-center bg-transparent" style="border:0;">
+            <div class="card-body">
+              <img
+                src="https://resize.prod.femina.ladmedia.fr/rblr/1401,978/img/var/2015-09/comment-devenir-une-personne-solaire-0e95b16c5fefae293635ad5b6ce2b1198537e371.jpg"
+                class=" rounded-circle mx-auto d-block w-100  " />
+              <h4 class="card-title mt-3">Sokaina Daabal</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 w-25">
+          <div class="card text-center bg-transparent" style="border: 0;">
+            <div class="card-body">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="rounded-circle mx-auto d-block w-100  " />
+              <h4 class="card-title mt-3">Manar Haimer</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 w-25">
+          <div class="card text-center bg-transparent" style="border: 0; ">
+            <div class="card-body">
+              <img
+                src="https://thumbs.dreamstime.com/b/portrait-d-homme-d-une-cinquantaine-d-ann%C3%A9es-bel-au-bureau-60821590.jpg"
+                class=" rounded-circle mx-auto d-block w-100  " />
+              <h4 class="card-title mt-3">yassine Mohammed</h4>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Contact & map-->
+  <div  class="card-footer mt-5">
+    <div class="row ">
+      <div class="col-md-6  col-sm-12 order-last  order-md-first">
+        <ul class="list-group list-group-flush mt-3" style="background-color: transparent;">
+          <li class="list-group-item p-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+            </svg><a class="ms-3" style="color:white; text-decoration: none;  " href="#">sokainadaabal@gmail.com</a>
+          </li>
+          <li class="list-group-item p-5" style="background-color: transparent;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-telephone"
+              viewBox="0 0 16 16">
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            <a class="ms-3" style="color:white; text-decoration: none;  " href="#">0604230472</a>
+          </li>
+          <li class="list-group-item p-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+            </svg> <a class="ms-3" style="color:white; text-decoration: none;   " href="#">Rue 85 Ben Gradde El
+              Jadida</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6  col-sm-12 order-first order-dm-last">
+        <div id="map-container-google-11" class="z-depth-1-half map-container-6 ">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.165094895022!2d-7.362647348723914!3d33.70467668060725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b6d0db170185%3A0x79759da1a916fc50!2sENSET%20Mohammedia!5e0!3m2!1sfr!2sma!4v1646866778122!5m2!1sfr!2sma"
+            frameborder="0" style="border:0;height: 400px;width: 100%;" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
